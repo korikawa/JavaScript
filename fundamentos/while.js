@@ -6,6 +6,6 @@ let opcao = 0
 
 while (opcao != -1) {
     opcao = inteiro(-1,10)
-    console.log('opcao foi :' $(opcao))
+    console.log('opcao foi :' , $(opcao))
 }
 console.log(' solta : ')
