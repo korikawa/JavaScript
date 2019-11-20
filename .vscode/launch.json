@@ -1,14 +1,38 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${file}"
-        }
-    ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "%tds.package.totvs_language_debug%",
+			"program": "${command:AskForProgramName}",
+			"smartclientBin": "C:/totvs/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Program",
+			"program": "${file}",
+			"smartclientBin": "C:\\Users\\Raphael Moerbeck\\Desktop\\Desktop\\Objects\\CRONOLOGICA\\Teste\\smartclient.exe"
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"name": "12.1.25 Localhost",
+			"smartclientBin": "D:\\TOTVS12\\Protheus\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"program": "${command:AskForProgramName}",
+			"programArguments": "",
+			"enableMultiThread": true,
+			"enableProfile": false,
+			"isMultiSession": true,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"language": "",
+			"ignoreFiles": true,
+			"enableTableSync": true
+		}
+	]
 }
