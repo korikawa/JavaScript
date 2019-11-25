@@ -33,6 +33,55 @@
 			"language": "",
 			"ignoreFiles": true,
 			"enableTableSync": true
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"name": "HCVR.",
+			"smartclientBin": "C:\\Users\\Raphael Moerbeck\\Desktop\\Desktop\\Objects\\Protheus- hc\\smartclient.exe",
+			"program": "${command:AskForProgramName}",
+			"programArguments": "",
+			"enableMultiThread": true,
+			"enableProfile": false,
+			"isMultiSession": true,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"language": "",
+			"ignoreFiles": true,
+			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "HCV010",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAMDI",
+			"description": ""
+		},
+		{
+			"args": [
+				"()"
+			],
+			"label": "AVetor",
+			"description": "()"
+		},
+		{
+			"args": [
+				" ()"
+			],
+			"label": "AVetor",
+			"description": " ()"
+		},
+		{
+			"args": [],
+			"label": "U_AVetor",
+			"description": ""
+		}
+	],
+	"lastProgramExecuted": "U_AVetor"
 }
